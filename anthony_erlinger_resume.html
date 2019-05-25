@@ -139,6 +139,8 @@
       color: rgba(255, 255, 255, 0) !important;
     }
 
+
+
     .publisher {
       float: left;
       display: inline-block;
@@ -223,6 +225,12 @@
     }
 
     #contact {
+      display: block;
+      float: right;
+      text-align: right;
+      font-size: 12px !important;
+      line-height: 12px !important;
+      border: 0;
       width: 200px !important;
     }
 
@@ -398,7 +406,8 @@
     }
 
     #resume .contact, #resume .summary, #resume .specialties {
-      font-size: 14px
+      font-size: 12px;
+      line-heightt: 11px;
     }
 
     .contact {
@@ -406,7 +415,7 @@
       font-size: 16px !important;
     }
 
-    #resume .contact, #resume .name {
+    #resume .name {
       padding-top: 10px !important;
       font-size: 24px !important;
       color: black;
@@ -698,32 +707,36 @@
         <span class="last-name">Erlinger</span>
       </h1>
 
-      <div class="content contact" id="contact"
-           style="display: block; float: right; text-align: right; font-size: 14px !important; border: 0;">
-        <div class="url-personal member-url-resource">
-          <span class="label">Email:</span>
+      <div class="contact-links">
+        <div class="content contact" id="contact">
+          <div class="url-personal member-url-resource">
+            <span class="label">Email:</span>
             <span class="content">
+              <span>Email:</span>
               <a href="mailto:aerlinger.com" rel="nofollow" target="_blank">aerlinger@gmail.com</a>
+              <span >Phone:</span>
+              <a rel="nofollow" target="_blank">805-403-6404</a>
             </span>
-        </div>
+          </div>
 
-        <div class="url-personal member-url-resource">
-          <span class="label">Phone:</span>
-          <span class="content"><a rel="nofollow" target="_blank">805-403-6404</a></span>
-        </div>
+          <!--<div class="url-personal member-url-resource">-->
+            <!--<span class="label">Phone:</span>-->
+            <!--<span class="content"><a rel="nofollow" target="_blank">805-403-6404</a></span>-->
+          <!--</div>-->
 
-        <div class="url-personal member-url-resource">
-          <span class="label">Personal site:</span>
+          <div class="url-personal member-url-resource">
+            <span class="label">Personal site:</span>
             <span class="content">
               <a href="http://aerlinger.com/" rel="nofollow" target="_blank">http://aerlinger.com</a>
             </span>
-        </div>
+          </div>
 
-        <div class="url-portfolio member-url-resource">
-          <span class="label">Portfolio:</span>
-          <span class="content">
+          <div class="url-portfolio member-url-resource">
+            <span class="label">Portfolio:</span>
+            <span class="content">
             <a href="https://github.com/aerlinger" rel="nofollow" target="_blank">https://github.com/aerlinger</a>
           </span>
+          </div>
         </div>
       </div>
 
@@ -745,14 +758,17 @@
 
             <div class="title">Co-founder & Director of Engineering</div>
             <div class="company-description">
-              Legal Hero provides incredible lawyers for clearly priced projects, making the process of finding a lawyer transparent and straightforward.
+              Legal Hero provides incredible lawyers for clearly priced projects, making the process of finding a lawyer
+              transparent and straightforward.
             </div>
 
             <div class="job-summary">
               <ul class="responsibilities">
                 <li>
                   <span class="unibull">◆</span>
-                  Designed and developed full-stack web platform, built a REST API to serve AngularJS frontend and deployed background services for scalable integration with third party tools. Deployment and configuration was managed by Chef on AWS.
+                  Designed and developed full-stack web platform, built a REST API to serve AngularJS frontend and
+                  deployed background services for scalable integration with third party tools. Deployment and
+                  configuration was managed by Chef on AWS.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
@@ -760,7 +776,8 @@
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Led meetings and planning for development of product relating to company strategy. Maintained net promoter score (NPS) of 85 and annual revenue increased from $0 to over $400,000 in one year.
+                  Led meetings and planning for development of product relating to company strategy. Maintained net
+                  promoter score (NPS) of 85 and annual revenue increased from $0 to over $400,000 in one year.
                 </li>
               </ul>
             </div>
@@ -784,22 +801,27 @@
             <div class="title">Data Science Course Instructor</div>
 
             <div class="company-description">
-              General Assembly transforms thinkers into creators through education and opportunities in technology, business, and design.
+              General Assembly transforms thinkers into creators through education and opportunities in technology,
+              business, and design.
             </div>
 
             <div class="job-summary">
               <ul class="responsibilities">
                 <li>
                   <span class="unibull">◆</span>
-                  Lectured for three hours twice per week. Covered topics included mining and analyzing data, designing and evaluating models for supervised and unsupervised machine learning problems, and managing data in a production environment.
+                  Lectured for 3 hours twice per week. Topics included mining and analyzing data, designing and
+                  evaluating models for supervised and unsupervised machine learning problems, and managing data in a
+                  production environment.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Developed curriculum and all instructional materials used throughout the course. Technologies used included Python, SQL, and the Unix shell.
+                  Developed curriculum and all instructional materials used throughout the course. Technologies used
+                  included Python, SQL, and the Unix shell.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Mentored students regularly on a one-on-one basis to help with learning concepts and the class project.     
+                  Mentored students regularly on a one-on-one basis to help with learning concepts and the class
+                  project.
                 </li>
               </ul>
             </div>
@@ -822,26 +844,32 @@
 
             <div class="title">Director of Data Science</div>
             <div class="company-description">
-              Handy is an international platform through which users can book cleaners, handymen, and other household service providers.
+              Handy is an international platform through which users can book cleaners, handymen, and other household
+              service providers.
             </div>
 
             <div class="job-summary">
               <ul class="responsibilities">
                 <li>
                   <span class="unibull">◆</span>
-                  Led key data initiatives of the company, including the development of internal tools and data pipelining services. These services were critical in allowing internal data to be accessible and actionable in guiding the company's strategic and operational objectives.
+                  Led key data initiatives of the company, including the development of internal tools and data
+                  pipelining services. These services were critical in allowing internal data to be accessible and
+                  actionable in guiding the company's strategic and operational objectives.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Built new custom dashboarding and data visualization tools utilized across all domains of the company for purposes of reporting and business intelligence.
+                  Led development of internal custom dashboard and data visualization tools utilized across all domains of the company
+                  for purposes of reporting and business intelligence.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Developed and employed "surge pricing" algorithms responsible for adjusting prices based on economic fluctuations in supply and demand over time.
+                  Developed and employed "surge pricing" algorithms responsible for adjusting prices based on economic
+                  fluctuations in supply and demand over time.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Led initiatives to migrate and refactor existing legacy database schema to a more scalable and maintainable structure.
+                  Led initiatives to migrate and refactor legacy database schema to a more scalable and maintainable
+                  structure.
                 </li>
               </ul>
             </div>
@@ -866,22 +894,28 @@
 
             <div class="title">Co-founder & Chief Technology Officer</div>
             <div class="company-description">
-              AnyoneGame is a social mobile gaming company backed by Lerer Hippeau Ventures, Tribeca Venture Partners, M8 Capital, and Eniac Ventures.
+              AnyoneGame is a social mobile gaming company backed by Lerer Hippeau Ventures, Tribeca Venture Partners,
+              M8 Capital, and Eniac Ventures.
             </div>
 
             <div class="job-summary">
               <ul class="responsibilities" style="padding-bottom: 0;">
                 <li>
                   <span class="unibull">◆</span>
-                  Led team development (four engineers) of product from concept to launch. Responsibilities included hiring, managing code reviews, establishing core development principles, maintaining software reliability across release cycles.
+                  Led team development (four engineers) from product concept to launch. Responsibilities included
+                  hiring, managing code reviews, establishing development principles, maintaining software reliability
+                  across release cycles.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Designed, developed, tested, and deployed REST API (Ruby on Rails) serving both web and mobile (iOS & Android) frontends. API response times were time-critical and consistently completed in less than 35 milliseconds.
+                  Designed, developed, tested, and deployed REST API (Ruby on Rails) serving both web and mobile (iOS &
+                  Android) frontends. API response times were time-critical and consistently completed in less than 35
+                  milliseconds.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Managed development operations (dev-ops) for a multi-server architecture running Ruby on Rails, MySQL, Redis, HAProxy and Sphinx running on AWS.
+                  Managed development operations (dev-ops) for a multi-server architecture running Ruby on Rails, MySQL,
+                  Redis, HAProxy and Sphinx running on AWS.
                 </li>
                 <li style="margin-bottom: 0;">
                   <span class="unibull">◆</span>
@@ -932,14 +966,16 @@
             <div class="title">Ph.D. Candidate, Bioelectronic Systems Lab</div>
 
             <div class="company-description">
-            The Bioelectronic Systems Lab is a multidisciplinary research group pursuing novel applications of traditional electronics in the areas of chemistry and biology.
+              The Bioelectronic Systems Lab is a multidisciplinary research group pursuing novel applications of
+              traditional electronics in the areas of chemistry and biology.
             </div>
 
             <div class="job-summary">
               <ul class="responsibilities">
                 <li>
                   <span class="unibull">◆</span>
-                  Designed and carried out experiments to study electrical properties of single-walled carbon nanotubes (SW-CNTs) in biological environments.
+                  Designed and carried out experiments to study electrical properties of single-walled carbon nanotubes
+                  (SW-CNTs) in biological environments.
                 </li>
                 <li>
                   <span class="unibull">◆</span>
@@ -947,7 +983,8 @@
                 </li>
                 <li>
                   <span class="unibull">◆</span>
-                  Assisted in managing and maintaining the lab's self-hosted server network responsible for running simulations and data analysis.
+                  Assisted in managing and maintaining the lab's self-hosted server network responsible for running
+                  simulations and data analysis.
                 </li>
               </ul>
             </div>
@@ -1009,7 +1046,7 @@
       </div>
       <div class="clear"></div>
 
-      <br />
+      <br/>
       <h2 class="section-title">Projects</h2>
 
       <div class="clear"></div>
@@ -1061,7 +1098,9 @@
 
             <div class="job-summary">
               <p>
-                Circuit Box is an interactive circuit simulator written in JavaScript on Node.js. Using numerical solvers (Euler's method), it can compute and render voltages and currents for complex analog and digital circuits at multiple frames per second.
+                Circuit Box is an interactive circuit simulator written in JavaScript on Node.js. Using numerical
+                solvers (Euler's method), it can compute and render voltages and currents for complex analog and digital
+                circuits at multiple frames per second.
               </p>
             </div>
           </div>
@@ -1092,7 +1131,7 @@
               </span>
             </span>
 
-            <span class="patent-url publication-url">
+              <span class="patent-url publication-url">
               Patent link: <a href="http://goo.gl/edSSes" target="_blank">http://goo.gl/edSSes</a>
             </span>
             </div>
@@ -1233,9 +1272,10 @@
             </div>
 
             <div class="patent-summary">
-              <p>The Columbia Venture Competition is an annual competition in which students and alumni compete for $100,000 in seed capital.
+              <p>The Columbia Venture Competition is an annual competition in which students and alumni compete for
+                $100,000 in seed capital.
 
-              8 finalists were selected out of over 70 applications.</p>
+                8 finalists were selected out of over 70 applications.</p>
             </div>
           </div>
 
@@ -1249,7 +1289,9 @@
             </div>
 
             <div class="patent-summary">
-              <p>The NSF GRFP is a fellowship supporting graduate research in science and engineering. It is one of the oldest and most prestigious fellowships in the United States and 2,000 awards were selected from 12,000 applications in 2011.</p>
+              <p>The NSF GRFP is a fellowship supporting graduate research in science and engineering. It is one of the
+                oldest and most prestigious fellowships in the United States and 2,000 awards were selected from 12,000
+                applications in 2011.</p>
             </div>
           </div>
 
